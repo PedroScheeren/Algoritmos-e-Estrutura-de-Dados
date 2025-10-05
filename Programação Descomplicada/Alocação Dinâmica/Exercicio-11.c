@@ -42,7 +42,9 @@ void registra_aluno(alunos *alocado, int n){
     {
         printf("Digite a matricula do aluno %d-> ", i+1);
         scanf("%d", &alocado[i].matricula);
+        
         getchar();
+        
         printf("Digite o nome do aluno %d-> ", i+1);
         fgets(alocado[i].nome, 30, stdin);
         
