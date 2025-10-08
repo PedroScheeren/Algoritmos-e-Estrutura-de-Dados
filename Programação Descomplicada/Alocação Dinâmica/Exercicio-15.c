@@ -6,6 +6,7 @@ typedef struct{
     int x, y;
     int maior;
 }maior;
+
 int **aloca(int linhas, int colunas);
 void preenche_matriz(int **matriz, int linhas, int colunas);
 void localiza_maior(int **matriz,int linhas, int colunas, maior maiores[]);
@@ -26,7 +27,7 @@ int main(){
     preenche_matriz(matriz,linhas,colunas);
     localiza_maior(matriz,linhas,colunas,vetor);
     imprime_matriz(matriz,linhas,colunas,vetor);
-    libera(matriz,linhas);
+    libera(matriz,linhas);      
 
 
 
@@ -90,8 +91,7 @@ void localiza_maior(int **matriz,int linhas, int colunas, maior maiores[]){
                 if (k == 2)
                     break;
             }
-           
-          
+   
         }
         
     }
