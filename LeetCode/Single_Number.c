@@ -13,9 +13,6 @@ int main(){
 
     printf("\n%d\n", singleNumber(vetor,tam));
 
-    
-
-
     return 0;
 }
 
