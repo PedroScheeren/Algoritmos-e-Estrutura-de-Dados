@@ -1,5 +1,5 @@
 //Pedro de Freitas Scheeren
-//LeetCode 860
+//LeetCode 860  - Lemonade Change
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -8,13 +8,13 @@
 bool lemonadeChange(int* bills, int billsSize);
 
 int main(){
-    int vetor_limonada[5]={5,5,5,10,20};
+    int vetor_limonada[5]={5,5,10,10,20};
     int tamanho = 5;
 
     if(lemonadeChange(vetor_limonada,tamanho))
         printf("TRUE\n\n");
     else
-        printf("ELSE\n\n");
+        printf("FALSE\n\n");
 
     return 0;
 }
